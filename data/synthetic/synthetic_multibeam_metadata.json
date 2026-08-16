@@ -1,0 +1,59 @@
+{
+  "type": "synthetic_multibeam_raw_complex",
+  "sound_speed_mps": 1500.0,
+  "center_frequency_hz": 30000.0,
+  "wavelength_m": 0.05,
+  "array": {
+    "n_elements": 16,
+    "spacing_m": 0.025
+  },
+  "dimensions": {
+    "n_pings": 36,
+    "n_elements": 16,
+    "n_ranges": 640
+  },
+  "range_max_m": 100.0,
+  "targets": [
+    {
+      "name": "target_A",
+      "range_m": 42.35,
+      "angle_deg": -21.6,
+      "amplitude": 0.88
+    },
+    {
+      "name": "target_B",
+      "range_m": 67.82,
+      "angle_deg": 12.4,
+      "amplitude": 0.58
+    },
+    {
+      "name": "target_C",
+      "range_m": 80.73,
+      "angle_deg": 33.7,
+      "amplitude": 0.36
+    }
+  ],
+  "bottom": {
+    "range_m": 88.0,
+    "slope_m_per_ping": 0.1,
+    "angle_deg": 0.0,
+    "amplitude": 0.58
+  },
+  "interference": {
+    "multipath": "weak delayed replica per target",
+    "clutter_ranges_m": [
+      54.8,
+      76.2
+    ],
+    "clutter_angles_deg": [
+      -43.5,
+      47.2
+    ]
+  },
+  "intended_algorithms": [
+    "delay-and-sum beamforming",
+    "range-angle imaging",
+    "CFAR detection",
+    "range/angle error analysis"
+  ]
+}

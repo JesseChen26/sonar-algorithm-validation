@@ -1,0 +1,25 @@
+{
+  "type": "synthetic_sidescan_waterfall",
+  "dimensions": {
+    "n_pings": 140,
+    "n_slant_ranges": 520
+  },
+  "targets": [
+    {
+      "ping": 42,
+      "slant_range_m": 37.5,
+      "name": "object_1"
+    },
+    {
+      "ping": 91,
+      "slant_range_m": 54.0,
+      "name": "object_2"
+    }
+  ],
+  "intended_algorithms": [
+    "bottom-line detection",
+    "slant-range correction",
+    "TVG/gain normalization",
+    "target highlight and acoustic shadow analysis"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "dataset_root": "D:\\\u684c\u9762\\\u6c42\u804c\\sonar-algorithm-validation",
+  "multibeam_targets": [
+    {
+      "name": "target_A",
+      "range_m": 42.35,
+      "angle_deg": -21.6,
+      "amplitude": 0.88
+    },
+    {
+      "name": "target_B",
+      "range_m": 67.82,
+      "angle_deg": 12.4,
+      "amplitude": 0.58
+    },
+    {
+      "name": "target_C",
+      "range_m": 80.73,
+      "angle_deg": 33.7,
+      "amplitude": 0.36
+    }
+  ],
+  "multibeam_detections": [
+    {
+      "angle_deg": -22.0,
+      "range_m": 42.41001564945227,
+      "value_db": 4.3433309093538334e-12
+    },
+    {
+      "angle_deg": 12.0,
+      "range_m": 67.76212832550861,
+      "value_db": -3.655756321405751
+    },
+    {
+      "angle_deg": 0.0,
+      "range_m": 87.79342723004696,
+      "value_db": -6.137916218001357
+    }
+  ],
+  "metrics": [
+    {
+      "target": "target_A",
+      "true_range_m": 42.35,
+      "est_range_m": 42.41001564945227,
+      "range_error_m": 0.060015649452267894,
+      "true_angle_deg": -21.6,
+      "est_angle_deg": -22.0,
+      "angle_error_deg": -0.3999999999999986
+    },
+    {
+      "target": "target_B",
+      "true_range_m": 67.82,
+      "est_range_m": 67.76212832550861,
+      "range_error_m": -0.05787167449138053,
+      "true_angle_deg": 12.4,
+      "est_angle_deg": 12.0,
+      "angle_error_deg": -0.40000000000000036
+    },
+    {
+      "target": "target_C",
+      "true_range_m": 80.73,
+      "est_range_m": 87.79342723004696,
+      "range_error_m": 7.063427230046955,
+      "true_angle_deg": 33.7,
+      "est_angle_deg": 0.0,
+      "angle_error_deg": -33.7
+    }
+  ],
+  "notes": "Small synthetic raw/processed sonar dataset with ground truth for job-matched algorithm demos."
+}
