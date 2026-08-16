@@ -1,8 +1,7 @@
 # Sonar Algorithm Validation
 
-面向水声算法工程师岗位的小型项目：结合 **NOAA 真实 ME70 水柱声呐 `.raw` 数据结构解析** 与 **可控单/多波束声呐算法仿真验证**，展示从原始数据认知、算法实现、结果可视化到误差分析的完整训练链路。
+结合 **NOAA 真实 ME70 水柱声呐 `.raw` 数据结构解析** 与 **可控单/多波束声呐算法仿真验证**，展示从原始数据认知、算法实现、结果可视化到误差分析的完整训练链路。
 
-> This is an engineering-oriented validation project, not a claim of a new sonar theory or a product-grade calibrated ME70 processor.
 
 ## What This Project Does
 
